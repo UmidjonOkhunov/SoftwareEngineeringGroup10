@@ -30,7 +30,7 @@ public class User {
         Date curDate = new Date();
         this.createDate = curDate;
         this.id = 0; //ToDo: How to create an id for a user
-        this.rating = 0;
+        this.rating = 0; //ToDo: Should this be initialized
     }
 
 }
