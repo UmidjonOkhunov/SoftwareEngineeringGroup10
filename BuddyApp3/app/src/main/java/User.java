@@ -23,10 +23,10 @@ public class User {
     {
         return buddy;
     }
-    public User(String name, String email, boolean isbuddy){
+    public User(String name, String email, boolean isBuddy){
         this.name = name;
         this.email = email;
-        this.buddy = isbuddy;
+        this.buddy = isBuddy;
         Date curDate = new Date();
         this.createDate = curDate;
         this.id = 0; //ToDo: How to create an id for a user
